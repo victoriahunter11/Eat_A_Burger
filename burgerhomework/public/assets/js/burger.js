@@ -29,7 +29,7 @@ $(function() {
 
     var newBurger = {
       name: $("#ca").val().trim(),
-      devour: 0
+      sleepy: 0
     };
 
     // Send the POST request.
