@@ -16,5 +16,13 @@
   },
   "devDependencies": {
     "handlebars-helper-css": "^0.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoriahunter11/Eat_A_Burger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/victoriahunter11/Eat_A_Burger/issues"
+  },
+  "homepage": "https://github.com/victoriahunter11/Eat_A_Burger#readme"
 }
