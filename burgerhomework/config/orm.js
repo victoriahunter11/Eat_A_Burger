@@ -51,18 +51,14 @@ var orm = {
     });
   },
   create: function(table, cols, vals, cb) {
-    var queryString = "INSERT INTO " + table;
+    console.log('val', vals[0])
+    var queryString = `INSERT INTO  burgers (name) VALUES('${vals[0]}')`;
 
-    queryString += " (";
-    queryString += cols.toString();
-    queryString += ") ";
-    queryString += "VALUES (";
-    queryString += printQuestionMarks(vals.length);
-    queryString += ") ";
+     console.log('asdasd',queryString);
 
-    console.log(queryString);
 
-    connection.query(queryString, vals, function(err, result) {
+
+    connection.query(queryString, function(err, result) {
       if (err) {
         throw err;
       }
