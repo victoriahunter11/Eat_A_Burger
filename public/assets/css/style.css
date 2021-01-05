@@ -4,6 +4,17 @@ li {
   background: #faebd7;
 }
 
+h1 {
+  text-align: center;
+  color:#e02929;
+  font-family: 'Hanalei Fill', cursive;
+  font-size: xxx-large;
+}
+h2 {
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+  font-size:xx-large;
+}
 .label {
   font-weight: bold;
 }
