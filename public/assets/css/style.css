@@ -2,6 +2,7 @@ li {
   padding: 5px;
   margin: 5px;
   background: #faebd7;
+  font-family: 'Comfortaa', cursive;
 }
 
 h1 {
@@ -15,6 +16,7 @@ h2 {
   text-align: center;
   font-size:xx-large;
 }
+
 .label {
   font-weight: bold;
 }
@@ -32,4 +34,6 @@ h2 {
 
 body {
   background-color: #f1c387;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
 }
